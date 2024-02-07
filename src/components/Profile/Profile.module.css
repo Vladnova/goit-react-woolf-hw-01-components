@@ -1,0 +1,62 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Змініть ширину за потребою */
+  margin: 20px auto 20px auto;
+}
+
+.description {
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tag {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.stats {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.stats li {
+  text-align: center;
+}
+
+.label {
+  color: #666;
+  font-size: 14px;
+  display: block;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+}
