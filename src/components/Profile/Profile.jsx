@@ -1,4 +1,4 @@
-import defaultImg from './defaultImg.png';
+import defaultImg from '../defaultImg/defaultImg.png';
 import styles from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
