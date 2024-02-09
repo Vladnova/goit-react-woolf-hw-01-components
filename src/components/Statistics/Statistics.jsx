@@ -1,11 +1,7 @@
+import getRandomColor from 'helpers/getRandomColor';
 import styles from '../Statistics/Statistics.module.css';
 
-function getRandomColor() {
-  const r = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-  return `rgb(${r}, ${g}, ${b})`;
-}
+
 
 const Statistics = ({ stats, title }) => {
   return (
